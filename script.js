@@ -3,14 +3,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const nav = document.querySelector('.nav');
   const navLinks = document.querySelectorAll('.nav a');
 
-  // Мобильное меню
+  // РњРѕР±РёР»СЊРЅРѕРµ РјРµРЅСЋ
   if (hamburger && nav) {
     hamburger.addEventListener('click', () => {
       nav.classList.toggle('active');
     });
   }
 
-  // Закрытие меню
+  // Р—Р°РєСЂС‹С‚РёРµ РјРµРЅСЋ
   navLinks.forEach(link => {
     link.addEventListener('click', () => {
       if (nav.classList.contains('active')) {
