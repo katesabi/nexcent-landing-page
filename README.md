@@ -20,7 +20,7 @@ this project brings a modern figma landing page design to life as a responsive w
 ## how to run
 1. ensure you have the `resources` folder with all images in the same directory as `index.html`.  
 2. open `index.html` in a browser.  
-3. styles are in `style.css`; scripts (if any) are in `script.js`.  
+3. styles are in `style.css`; scripts  are in `script.js`.  
 
 ## notes
 - placeholder text (lorem ipsum) is used in content blocks and can be replaced with final copy.  
