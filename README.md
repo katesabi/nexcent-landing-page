@@ -3,7 +3,7 @@
 this project brings a modern figma landing page design to life as a responsive website. the goal is to deliver a clean, professional look that adapts smoothly across mobile, tablet, and desktop screens.
 
 ## original design source
-🎨 figma landing page by muntasir billah
+🎨[ figma landing page by muntasir billah](https://www.figma.com/community/file/1222060007934600841/responsive-landing-page-design-website-home-page-design-agency-website-ui-design)
 
 ## key features
 - ✅ fully responsive layout — adaptive design for all screen sizes.  
