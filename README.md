@@ -22,15 +22,12 @@ this project brings a modern figma landing page design to life as a responsive w
 2. open `index.html` in a browser.  
 3. styles are in `style.css`; scripts  are in `script.js`.  
 
-## notes
-- placeholder text (lorem ipsum) is used in content blocks and can be replaced with final copy.  
-- the design includes a header, hero section, client logos, feature cards, stats, marketing section, and footer.
-- icons are loaded via the remix icon cdn for simplicity.
-
 ## long screenshot
 
 here’s a preview of the full-length layout:
   <img width="1763" height="4178" alt="image" src="https://github.com/user-attachments/assets/14292656-77b0-4816-b1b8-c54037fa6a0d" />
-  
 
-
+## notes
+- placeholder text (lorem ipsum) is used in content blocks and can be replaced with final copy.  
+- the design includes a header, hero section, client logos, feature cards, stats, marketing section, and footer.
+- icons are loaded via the remix icon cdn for simplicity.
