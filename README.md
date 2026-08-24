@@ -36,7 +36,7 @@ here’s a preview of the full-length layout:
 ## ❗improvements and fixes
 
 - social icons in footer now look and feel like buttons (hover lift, shadow, color change) and show a pointer cursor.
-- added a small active effect for social icons so clicks feel real.
+- added a small active effect for social icons.
 - made footer spacing nicer and centered on mobile.
 - added smooth scrolling for links.
 - fixed the hamburger menu so it closes when you click a link.
