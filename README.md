@@ -33,12 +33,11 @@ here’s a preview of the full-length layout:
 - icons are loaded via the remix icon cdn for simplicity.
 
   
-## improvements and fixes
+❗ ## improvements and fixes
 
-- social icons in the footer now have a hover effect matching the button style (lift up, shadow, color change) and cursor set to pointer for consistent interactivity.
-- added active state for social icons to reinforce the click feeling.
-- improved footer layout with better spacing and centered alignment on mobile screens.
-- added smooth scroll behavior for anchor links via javascript.
-- fixed hamburger menu toggle logic and ensured it closes when a nav link is clicked.
-- refined transitions and hover states across components for a more polished feel.
-- minor spacing and alignment tweaks in the stats and marketing sections for visual balance.
+- social icons in footer now look and feel like buttons (hover lift, shadow, color change) and show a pointer cursor.
+- added a small active effect for social icons so clicks feel real.
+- made footer spacing nicer and centered on mobile.
+- added smooth scrolling for links.
+- fixed the hamburger menu so it closes when you click a link.
+- tweaked some hover effects and spacing to make everything look smoother.
