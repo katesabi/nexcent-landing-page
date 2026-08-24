@@ -48,6 +48,8 @@ h1, h2, h3 {
   --main-bg-color: #fff;
   --primary-text: #4d4d4d;
   --secondary-text: #717171;
+  --footer-bg: #263238;
+  --social-icon-size: 24px;
 }
 
 .separator {
@@ -78,6 +80,9 @@ h1, h2, h3 {
 
 .header .logo {
   font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .hamburger i {
@@ -85,6 +90,7 @@ h1, h2, h3 {
   background-color: var(--primary-color);
   padding: 3px 5px;
   color: var(--main-bg-color);
+  cursor: pointer;
 }
 
 .hamburger:hover i {
@@ -369,7 +375,7 @@ h1, h2, h3 {
 
 /* Подвал */
 .footer {
-  background-color: #263238;
+  background-color: var(--footer-bg);
   display: flex;
   flex-flow: row wrap;
   padding: 40px 100px;
@@ -394,14 +400,30 @@ h1, h2, h3 {
   color: white;
   gap: 30px;
 }
-.social i {
+.social i.social-icon {
+  font-size: var(--social-icon-size);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   background-color: rgba(128, 128, 128, 0.4);
-  padding: 5px;
+  padding: 8px;
   border-radius: 50%;
-  margin: 5px;
+  color: white;
+}
+/* Эффект при наведении на иконки соцсетей */
+.social i.social-icon:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  background-color: var(--primary-color);
+  color: var(--main-bg-color);
+}
+.social i.social-icon:active {
+  transform: translateY(1px);
 }
 .footer .first .logo {
   font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 .footer .first p {
   font-size: 0.8rem;
@@ -423,11 +445,10 @@ h1, h2, h3 {
 .footer .fourth .email-form input {
   background-color: transparent;
   border: none;
+  color: white;
 }
 .footer .fourth .email-form input:focus {
-  border: none;
   outline: none;
-  color: white;
 }
 .footer .fourth .email-form {
   background-color: rgba(128, 128, 128, 0.4);
@@ -435,4 +456,23 @@ h1, h2, h3 {
   border-radius: 10px;
   display: flex;
   align-items: center;
+}
+
+/* Адаптив для футера */
+@media (max-width: 900px) {
+  .footer {
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .footer > * {
+    align-items: center;
+  }
+  .social {
+    margin-top: 15px;
+  }
+  .social i.social-icon {
+    margin: 0 5px;
+  }
 }
