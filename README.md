@@ -38,7 +38,7 @@ here's a preview of the full-length layout: <img width="1763" height="4226" alt=
 ## ❗improvements and fixes
 
 - social icons now act like buttons with hover and click effects.
-- footer spacing improved and centered on mobile!.
+- footer spacing improved and centered on mobile!
 - smooth scrolling added for all links.
 - hamburger menu closes when you click a link.
 - smoother hover effects and spacing.
