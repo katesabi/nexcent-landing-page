@@ -35,7 +35,7 @@ here's a preview of the full-length layout: <img width="1763" height="4226" alt=
 - the design includes a header, hero section, client logos, feature cards, stats, marketing section, and footer.
 - icons are loaded via the remix icon cdn for simplicity.
 
-## improvements and fixes
+## ❗improvements and fixes
 
 - social icons in footer now look and feel like buttons (hover lift, shadow, color change) and show a pointer cursor.
 - added a small active effect for social icons.
