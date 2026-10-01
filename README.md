@@ -37,19 +37,18 @@ here's a preview of the full-length layout: <img width="1763" height="4226" alt=
 
 ## ❗improvements and fixes
 
-- social icons in footer now look and feel like buttons (hover lift, shadow, color change) and show a pointer cursor.
-- added a small active effect for social icons.
-- made footer spacing nicer and centered on mobile.
-- added smooth scrolling for links.
-- fixed the hamburger menu so it closes when you click a link.
-- tweaked some hover effects and spacing to make everything look smoother.
-- increased footer text contrast — headings are pure white, body text uses a light blue-grey tone for better readability on the dark background.
-- darkened the footer background slightly from #263238 to #1c2a30 so light text stands out more.
-- enlarged footer links from 0.7rem to 0.85rem and added a hover state that brightens them to white.
-- replaced the semi-transparent grey social icon backgrounds with a subtle white tint (rgba(255,255,255,0.15)) for better visibility.
-- added a focus-within highlight on the email subscribe form — the border turns green when the input is focused.
-- styled the email input with a visible border, placeholder color, and proper focus outline so text is readable inside the dark footer.
-- moved the subscribe button's inline styles into a dedicated .subscribe-btn class in css for cleaner markup.
-- changed the email input type from text to email for basic browser validation.
-- added responsive max-width and wrapping for the subscribe form on smaller screens.
-- used &copy; entity instead of a raw copyright symbol in the footer html for correct rendering.
+- social icons now act like buttons with hover and click effects.
+- footer spacing improved and centered on mobile!.
+- smooth scrolling added for all links.
+- hamburger menu closes when you click a link.
+- smoother hover effects and spacing.
+- footer text made brighter and easier to read.
+- footer background darkened for better contrast.
+- footer links enlarged and turn white on hover.
+- social icon backgrounds lightened for visibility.
+- email form border turns green on focus!
+- email input got a visible border and placeholder color.
+- subscribe button styles moved from html to css.
+- email input type changed to email for validation.
+- subscribe form wraps nicely on small screens.
+- copyright symbol replaced with &copy; entity! 
