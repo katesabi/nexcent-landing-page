@@ -46,9 +46,9 @@ here's a preview of the full-length layout: <img width="1763" height="4226" alt=
 - footer background darkened for better contrast.
 - footer links enlarged and turn white on hover.
 - social icon backgrounds lightened for visibility.
-- email form border turns green on focus!
+- email form border turns green on focus.
 - email input got a visible border and placeholder color.
 - subscribe button styles moved from html to css.
 - email input type changed to email for validation.
 - subscribe form wraps nicely on small screens.
-- copyright symbol replaced with &copy; entity! 
+- copyright symbol replaced with &copy; entity.
